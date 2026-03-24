@@ -1,0 +1,11 @@
+[tasks.build]
+description = "Build the dcp debug binary"
+run = "cargo build --bin dcp"
+
+[tasks.build-release]
+description = "Build the dcp release binary"
+run = "cargo build --release --bin dcp"
+
+[tasks.test]
+description = "Run the test suite"
+run = "cargo test"
