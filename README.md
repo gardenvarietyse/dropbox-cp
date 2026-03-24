@@ -1,5 +1,7 @@
 # dropbox-cp
 
+[![Tests](https://github.com/gardenvarietyse/dropbox-cp/actions/workflows/test.yml/badge.svg)](https://github.com/gardenvarietyse/dropbox-cp/actions/workflows/test.yml)
+
 ### `cp` for Dropbox
 
 **dropbox-cp** provides the **`dcp`** command-line tool: it copies a local file or directory tree into a path in a Dropbox account using the Dropbox API. Missing remote parent folders are created as needed. By default, if a destination file already exists in Dropbox, `dcp` prints an error, skips that file, and continues with the rest; use `-f` to overwrite existing files.
